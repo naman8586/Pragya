@@ -14,6 +14,7 @@ import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import logoo from './logoo.png'
+import logoo_dark from './logoo_dark.png'
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
@@ -54,6 +55,7 @@ export const assets = {
     logo,
     logo_dark,
     logoo,
+    logoo_dark,
     mail_icon,
     mail_icon_dark,
     profile_img,
@@ -80,23 +82,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Integrelearn',
+        description: 'E-learning app.',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'NamasteNomad',
+        description: 'Tour & Tourist app.',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'E-com web',
+        description: 'Make an Online store',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Basic reactjs projects',
+        description: 'Weather app,to do lists.',
         bgImage: '/work-4.png',
     },
 ]

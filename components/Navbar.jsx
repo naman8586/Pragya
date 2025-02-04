@@ -9,7 +9,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   const menuItems = [
     { name: "Home", href: "#top" },
     { name: "About Me", href: "#about" },
-    { name: "Services", href: "#services" },
     { name: "My Work", href: "#work" },
     { name: "Contact Me", href: "#contact" },
   ];
@@ -41,14 +40,14 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition-all duration-300 dark:bg-darkTheme dark:shadow-white/20 ${
           isScrolled
             ? "bg-white bg-opacity-80 backdrop-blur-lg shadow-md"
-            : "bg-transparent"
+            : "bg-transparent" 
         }`}
       >
         <a href="#top">
           <Image
-            src={isDarkMode ? assets.logoo_dark : assets.logoo}
+            src={isDarkMode ? assets.Logo_white : assets.Logo_black}
             alt="Logo"
-            className="w-36 h-20 cursor-pointer mr-14"
+            className="w-56 scale-150 h-28 cursor-pointer mr-14"
           />
         </a>
 

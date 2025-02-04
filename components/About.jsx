@@ -4,7 +4,7 @@ import { assets, infoList, toolsData } from "@/assets/assets";
 
 const About = ({ isDarkMode }) => {
   return (
-    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 mt-20">
       <h4 className="text-center mb-2 lg:text-lg font-Ovo">Introduction</h4>
       <h2 className="text-center text-5xl font-Ovo">About Me</h2>
 
@@ -12,7 +12,7 @@ const About = ({ isDarkMode }) => {
       
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">
           <Image
-            src={assets.user_image}
+            src={assets.pro_file}
             alt="User Image"
             className="w-full rounded-full"
           />
@@ -21,13 +21,7 @@ const About = ({ isDarkMode }) => {
        
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            Hi, I'm Naman, a passionate front-end developer and video editor. I
-            love crafting visually stunning and user-friendly web interfaces,
-            blending creativity with functionality. With a strong eye for design
-            and attention to detail, I aim to deliver seamless digital
-            experiences. I'm always eager to learn, innovate, and bring ideas to
-            life through code and visuals. Let's create something amazing
-            together!
+          I hold a Bachelor’s degree in Applied Arts from the College of Art, Delhi.where I learned how design can communicate ideas and shape experiences.For me, design is more than just making things look good—it’s about creating visuals that are clear, meaningful, and engaging. I focus on storytelling, functionality, and aesthetics to ensure my work connects with people and serves a purpose. Whether it’s branding, digital design, or user interfaces, my goal is to craft designs that leave a lasting impact.
           </p>
 
          
@@ -75,12 +69,12 @@ const About = ({ isDarkMode }) => {
           <ul className="flex items-center gap-3 sm:gap-5">
             {toolsData.map((tool, index) => (
               <li
-                className={`flex items-center justify-center w-12 sm:w-14 aspect-square border rounded-lg cursor-pointer hover:-translate-y-1 duration-500 ${
+                className={`flex items-center justify-center w-20 sm:w-14 aspect-square border rounded-lg cursor-pointer hover:-translate-y-1 duration-500 ${
                   isDarkMode ? "border-gray-500" : "border-gray-400"
                 }`}
                 key={index}
               >
-                <Image src={tool} className="w-5 sm:w-7" alt={`Tool ${index}`} />
+                <Image src={tool} className="w-10 sm:w-7" alt={`Tool ${index}`} />
               </li>
             ))}
           </ul>

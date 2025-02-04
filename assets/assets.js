@@ -5,6 +5,8 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
+import ps from './ps.png'
+import pro_file from './pro-file.png'
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
@@ -12,12 +14,16 @@ import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
+import pro_img from './pro-img.png';
 import logo_dark from './logo_dark.png';
 import logoo from './logoo.png'
 import logoo_dark from './logoo_dark.png'
+import Logo_white from './Logo_white.png'
+import Logo_black from './Logo_black.png'
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
+import user_img from './user-img.png'
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -37,9 +43,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import illustrator from './illustrator.png';
+import procreate from './procreate.png'
 
 export const assets = {
     user_image,
+    user_img,
+    pro_img,
+    pro_file,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -48,13 +59,18 @@ export const assets = {
     project_icon_dark,
     vscode,
     firebase,
+    illustrator,
+    procreate,
     figma,
+    ps,
     git,
     mongodb,
     right_arrow_white,
     logo,
     logo_dark,
     logoo,
+    Logo_white,
+    Logo_black,
     logoo_dark,
     mail_icon,
     mail_icon_dark,
@@ -82,24 +98,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Integrelearn',
-        description: 'E-learning app.',
-        bgImage: '/work-1.png',
+        bgImage: '/fifa.png',
     },
     {
-        title: 'NamasteNomad',
-        description: 'Tour & Tourist app.',
-        bgImage: '/work-2.png',
+        bgImage: '/cadbury.png',
     },
     {
-        title: 'E-com web',
-        description: 'Make an Online store',
-        bgImage: '/work-3.png',
+        bgImage: '/illus.png',
     },
     {
-        title: 'Basic reactjs projects',
-        description: 'Weather app,to do lists.',
-        bgImage: '/work-4.png',
+        bgImage: '/jewel_logo.png',
+    },
+    {
+        bgImage: '/port.png'
+    },
+    {
+        bgImage: '/sunfest.png'
+    },
+    {
+        bgImage: '/naksh.png'
+    },
+    {
+        bgImage: '/jewellery.png'
     },
 ]
 
@@ -111,11 +131,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js,Redux , Node Js , Express js , Git & Github, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information technology , Graduating in 2026' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 reactjs production based projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Skills', description: 'Adobe Photoshop , Adobe Illustrator , Premiere Pro , Procreate , Figma  ' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Fine Arts from COA in 2023.' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Designed various projects using Adobe Creative Suite and Figma.' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.ps, assets.illustrator, assets.procreate, assets.figma,
 ];

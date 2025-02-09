@@ -33,7 +33,7 @@ const Work = ({ isDarkMode }) => {
       </div>
 
       <a 
-                href="/PORtfolio.pdf" 
+                href="/karya.pdf" 
                 download 
                 className='px-10 py-3 border border-gray-500 rounded-full text-gray-500 hover:bg-gray-100
                  w-56 relative left-[30rem] top-12 mb-20 transition-all duration-300 ease-in-out flex items-center gap-2'

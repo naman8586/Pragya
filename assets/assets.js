@@ -46,6 +46,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import illustrator from './illustrator.png';
 import procreate from './procreate.png'
 
+
 export const assets = {
     user_image,
     user_img,
@@ -132,7 +133,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Skills', description: 'Adobe Photoshop , Adobe Illustrator , Premiere Pro , Procreate , Figma  ' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Fine Arts from COA in 2023.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Fine Arts from COA in 2024.' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Designed various projects using Adobe Creative Suite and Figma.' }
 ];
 

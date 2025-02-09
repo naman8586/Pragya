@@ -27,7 +27,7 @@ const Header = () => {
           <Image src={assets.right_arrow_white} alt='' className='w-4' />
         </a>
         <a 
-          href="/RESume.pdf" 
+          href="/patra.pdf" 
           download 
           className='px-10 py-3 border border-gray-500 rounded-full text-gray-500 hover:bg-gray-100 transition-all duration-300 ease-in-out flex items-center gap-2'
         >
